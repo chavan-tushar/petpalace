@@ -11,7 +11,8 @@ function HomeScreen() {
     const productList = useSelector(state => state.productList)
     //const [products1, setProducts1] = useState()
     const { error, loading, products } = productList
-    
+    //console.log(`Product list ${ JSON.stringify(productList)}`)
+
     //console.log('Tushar', products)
     useEffect(() => {
         // const res  = axios.get('/api/products/')

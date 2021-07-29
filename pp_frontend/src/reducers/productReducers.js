@@ -15,16 +15,16 @@ export const productListReducer = (state = { products: [] }, action) => {
             return { loading: true, products: [] };
         
         case PRODUCT_LIST_SUCCESS:
-            //console.log('actions.playload',action.playload)
+            //console.log('actions: ',action)
             return { 
                 loading: false, 
-                products: action.playload
+                products: action.payload
             };
         
         case PRODUCT_LIST_FAIL:
             return { 
                 loading: false, 
-                error: action.playload
+                error: action.payload
                 //error:"Error" 
             };
         
@@ -43,13 +43,13 @@ export const productDetailsReducer = (state = { product: {reviews: []} }, action
             //console.log('actions.playload',action.playload)
             return { 
                 loading: false, 
-                product: action.playload
+                product: action.payload
             };
         
         case PRODUCT_DETAILS_FAIL:
             return { 
                 loading: false, 
-                error: action.playload
+                error: action.payload
                 //error:"Error" 
             };
         
