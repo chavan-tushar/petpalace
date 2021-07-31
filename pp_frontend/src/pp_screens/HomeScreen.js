@@ -6,13 +6,15 @@ import Loader from '../pp_components/Loader'
 import Message from '../pp_components/Message'
 import { listProducts } from '../pp_actions/productActions'
 
-function HomeScreen() {
+function HomeScreen({history}) {
     const dispatch = useDispatch()
     const productList = useSelector(state => state.productList)
     //const [products1, setProducts1] = useState()
     const { error, loading, products } = productList
     //console.log(`Product list ${ JSON.stringify(productList)}`)
 
+    let keyword = history.location.search
+    console.log(keyword)
     //console.log('Tushar', products)
     useEffect(() => {
         // const res  = axios.get('/api/products/')
@@ -24,13 +26,13 @@ function HomeScreen() {
         //     console.log(e)
         // })
 
-        dispatch(listProducts())
+        dispatch(listProducts(keyword))
 
         //setProducts1(listProducts())
         //console.log(products1)
         // const mydispatch = dispatch(listProducts())
         // console.log(mydispatch)
-    },[dispatch])
+    },[dispatch, keyword])
     return (
         <div>
             <h1>Latest Products</h1>

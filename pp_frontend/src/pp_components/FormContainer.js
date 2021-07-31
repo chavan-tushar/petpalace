@@ -9,7 +9,7 @@ function FormContainer({children}) {
                 <Col xs={12} md={6}>
                     {children}                
                 </Col>
-                
+                <br />
             </Row>
             
 

@@ -53,7 +53,7 @@ function LoginScreen({location, history}) {
                 </Form.Group>
 
                 <Form.Group controlId='password'>
-                    <Form.Label>
+                    <Form.Label><br />
                         Password
                     </Form.Label> 
                     <Form.Control 
@@ -63,6 +63,7 @@ function LoginScreen({location, history}) {
                         onChange= {(e) => setPassword(e.target.value)}
                     >
                     </Form.Control>
+                    <br />
                 </Form.Group> 
                  
                 <Button type="submit" variant="primary">

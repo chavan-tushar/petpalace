@@ -76,7 +76,7 @@ function ProfileScreen({history}) {
                 <Form onSubmit={submitHandler}>
 
                 <Form.Group controlId='name'>
-                        <Form.Label>
+                        <Form.Label><br />
                             Name
                         </Form.Label> 
                         <Form.Control 
@@ -90,7 +90,7 @@ function ProfileScreen({history}) {
                     </Form.Group>
 
                     <Form.Group controlId='email'>
-                        <Form.Label>
+                        <Form.Label><br />
                             Email Address
                         </Form.Label> 
                         <Form.Control 
@@ -104,7 +104,7 @@ function ProfileScreen({history}) {
                     </Form.Group>
 
                     <Form.Group controlId='password'>
-                        <Form.Label>
+                        <Form.Label><br />
                             Password
                         </Form.Label> 
                         <Form.Control 
@@ -118,7 +118,7 @@ function ProfileScreen({history}) {
                     </Form.Group> 
 
                     <Form.Group controlId='passwordConfirm'>
-                        <Form.Label>
+                        <Form.Label><br />
                             Confirm Password
                         </Form.Label> 
                         <Form.Control 
@@ -129,6 +129,7 @@ function ProfileScreen({history}) {
                             onChange= {(e) => setConfirmPassword(e.target.value)}
                         >
                         </Form.Control>
+                        <br />
                     </Form.Group> 
 
 
