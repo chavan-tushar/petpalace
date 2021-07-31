@@ -6,9 +6,9 @@ import Message from '../pp_components/Message'
 import { addToCart, removeFromCart } from '../pp_actions/cartActions'
 
 function CartScreen({match, location, history}) {
-    let { id:productId } = useParams()
-    console.log("productId:", productId)
-    //const productId = match.params.id
+    //let { id:productId } = useParams()
+    //console.log("productId:", productId)
+    const productId = match.params.id
     const qty = location.search ? Number(location.search.split('=')[1]) : 1
     const dispatch = useDispatch()
 
