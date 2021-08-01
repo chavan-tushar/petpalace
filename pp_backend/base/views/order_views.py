@@ -73,4 +73,13 @@ def getOrderById(request, pk):
             Response({'detail': 'Not authorized to view this order.'},
                      status=status.HTTP_400_BAD_REQUEST)
     except:
-        return Response({'detail': 'Order does not exists'}, status=status.HTTP_400_BAD_REQUEST)
+        return Response({'detail': 'Order does not exist'}, status=status.HTTP_400_BAD_REQUEST)
+
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def getMyOrders(request):
+    user = request.user
+    orders = user.order_set.all()
+    serializers = OrderSerializer(orders, many=True)
+    return Response(serializers.data)

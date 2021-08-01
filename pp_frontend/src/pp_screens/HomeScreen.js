@@ -5,6 +5,7 @@ import Product from '../pp_components/Product'
 import Loader from '../pp_components/Loader'
 import Message from '../pp_components/Message'
 import { listProducts } from '../pp_actions/productActions'
+import ProductCarousel from '../pp_components/ProductCarousel'
 
 function HomeScreen({history}) {
     const dispatch = useDispatch()
@@ -35,7 +36,9 @@ function HomeScreen({history}) {
     },[dispatch, keyword])
     return (
         <div>
-            <h1>Latest Products</h1>
+            {!keyword && <ProductCarousel />}
+            
+            <h1 id="main-heading">Latest Products</h1>
             {loading ? <Loader />
                 : error? <Message variant="danger">{error}</Message>
                 : 

@@ -81,7 +81,7 @@ class OrderSerializer(serializers.ModelSerializer):
 
         try:
             address = ShippingAddressSerializer(
-                obj.shippingAddress, many=False)
+                obj.shippingaddress, many=False).data
         except:
             address = False
 
