@@ -1,1 +1,1 @@
-web: gunicorn pp_backend.wsgi --log-file-
+web: gunicorn pp_backend.wsgi --log-file -
