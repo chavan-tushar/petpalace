@@ -135,7 +135,7 @@ DATABASES = {
         'NAME': 'petpalace',
         'USER': 'tushar',
         'PASSWORD': os.environ.get('DB_PASS'),
-        'HOST': 'petpalace-identifier.cvihttdvrzhb.us-east-2.rds.amazonaws.com',
+        #'HOST': 'petpalace-identifier.cvihttdvrzhb.us-east-2.rds.amazonaws.com',
         'PORT': '5432'
     }
 }
