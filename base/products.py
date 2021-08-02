@@ -2,7 +2,7 @@ products = [
   {
     '_id': '1',
     'name': 'Bakers Food',
-    'image': '/images/food1.jpeg',
+    'image': '/static/images/food1.jpeg',
     'description':
       'Dog Food from Bakers Brand',
     'brand': 'Bakers',
@@ -15,7 +15,7 @@ products = [
   {
     '_id': '2',
     'name': 'Bella Food',
-    'image': '/images/food2.jpeg',
+    'image': '/static/images/food2.jpeg',
     'description':
       'Dog Food from Bella Brand',
     'brand': 'Bella',
@@ -28,7 +28,7 @@ products = [
   {
     '_id': '3',
     'name': 'Freshpet Food',
-    'image': '/images/food3.jpeg',
+    'image': '/static/images/food3.jpeg',
     'description':
       'Dog Food from Freshpet Brand',
     'brand': 'Freshpet',
@@ -41,7 +41,7 @@ products = [
   {
     '_id': '4',
     'name': 'Pedigree Food',
-    'image': '/images/food4.jpeg',
+    'image': '/static/images/food4.jpeg',
     'description':
       'Dog Food from Pedigree Brand',
     'brand': 'Pedigree',
@@ -54,7 +54,7 @@ products = [
 	{
     '_id': '5',
     'name': 'Bakers Bed',
-    'image': '/images/bed1.jpeg',
+    'image': '/static/images/bed1.jpeg',
     'description':
       'Dog Bed from Bakers Brand',
     'brand': 'Bakers',
@@ -67,7 +67,7 @@ products = [
   {
     '_id': '6',
     'name': 'Bella Bed',
-    'image': '/images/bed2.jpeg',
+    'image': '/static/images/bed2.jpeg',
     'description':
       'Dog Bed from Bella Brand',
     'brand': 'Bella',
@@ -80,7 +80,7 @@ products = [
   {
     '_id': '7',
     'name': 'Freshpet Bed',
-    'image': '/images/bed3.jpeg',
+    'image': '/static/images/bed3.jpeg',
     'description':
       'Dog Bed from Freshpet Brand',
     'brand': 'Freshpet',
@@ -93,7 +93,7 @@ products = [
   {
     '_id': '8',
     'name': 'Pedigree Bed',
-    'image': '/images/bed4.jpeg',
+    'image': '/static/images/bed4.jpeg',
     'description':
       'Dog Bed from Pedigree Brand',
     'brand': 'Pedigree',
@@ -107,7 +107,7 @@ products = [
 {
     '_id': '9',
     'name': 'Bakers Belt',
-    'image': '/images/belt1.jpeg',
+    'image': '/static/images/belt1.jpeg',
     'description':
       'Dog Belt from Bakers Brand',
     'brand': 'Bakers',
@@ -120,7 +120,7 @@ products = [
   {
     '_id': '10',
     'name': 'Bella Belt',
-    'image': '/images/belt2.jpeg',
+    'image': '/static/images/belt2.jpeg',
     'description':
       'Dog Belt from Bella Brand',
     'brand': 'Bella',
@@ -133,7 +133,7 @@ products = [
   {
     '_id': '11',
     'name': 'Freshpet Belt',
-    'image': '/images/belt3.jpeg',
+    'image': '/static/images/belt3.jpeg',
     'description':
       'Dog  Belt from Freshpet Brand',
     'brand': 'Freshpet',
@@ -146,7 +146,7 @@ products = [
   {
     '_id': '12',
     'name': 'Pedigree Belt',
-    'image': '/images/belt4.jpeg',
+    'image': '/static/images/belt4.jpeg',
     'description':
       'Dog Belt from Pedigree Brand',
     'brand': 'Pedigree',
@@ -159,7 +159,7 @@ products = [
 	{
     '_id': '13',
     'name': 'Bakers Toy',
-    'image': '/images/toy1.jpeg',
+    'image': '/static/images/toy1.jpeg',
     'description':
       'Dog Toy from Bakers Brand',
     'brand': 'Bakers',
@@ -172,7 +172,7 @@ products = [
   {
     '_id': '14',
     'name': 'Bella Toy',
-    'image': '/images/toy2.jpeg',
+    'image': '/static/images/toy2.jpeg',
     'description':
       'Dog Toy from Bella Brand',
     'brand': 'Bella',
@@ -185,7 +185,7 @@ products = [
   {
     '_id': '15',
     'name': 'Freshpet Toy',
-    'image': '/images/toy3.jpeg',
+    'image': '/static/images/toy3.jpeg',
     'description':
       'Dog Toy from Freshpet Brand',
     'brand': 'Freshpet',
@@ -198,7 +198,7 @@ products = [
   {
     '_id': '16',
     'name': 'Pedigree Toy',
-    'image': '/images/toy4.jpeg',
+    'image': '/static/images/toy4.jpeg',
     'description':
       'Dog Toy from Pedigree Brand',
     'brand': 'Pedigree',
