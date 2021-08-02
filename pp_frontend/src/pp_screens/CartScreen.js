@@ -49,7 +49,7 @@ function CartScreen({match, location, history}) {
                             <ListGroup.Item key={item.product}>
                                 <Row>
                                     <Col md={2}>
-                                        <Image src={`/static/${item.image}`} alt={item.name} fluid rounded />
+                                        <Image src={`/static${item.image}`} alt={item.name} fluid rounded />
                                     </Col>
                                     <Col md={3}>
                                         <Link to={`/product/${item.product}`}> {item.name}</Link>
