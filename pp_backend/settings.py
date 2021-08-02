@@ -181,12 +181,16 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/images/'
 
 STATICFILES_DIRS = [
-    BASE_DIR / 'static',
-    BASE_DIR / 'pp_frontend/build/static'
+    os.path.join(BASE_DIR,'static'),
+    os.path.join(BASE_DIR,'pp_frontend/build/static')
+    #BASE_DIR / 'static',
+    #BASE_DIR / 'pp_frontend/build/static'
 ]
 
-MEDIA_ROOT = BASE_DIR / 'static/images'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+MEDIA_ROOT = os.path.join(BASE_DIR,'static/images')
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+#MEDIA_ROOT = BASE_DIR / 'static/images'
+#STATIC_ROOT = BASE_DIR / 'staticfiles'
 #MEDIA_ROOT = BASE_DIR / 'staticfiles'
 #STATIC_ROOT = BASE_DIR / 'static/images'
 
