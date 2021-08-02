@@ -185,9 +185,10 @@ STATICFILES_DIRS = [
     BASE_DIR / 'pp_frontend/build/static'
 ]
 
-MEDIA_ROOT = BASE_DIR / 'static/images'
+#MEDIA_ROOT = BASE_DIR / 'static/images'
 #STATIC_ROOT = BASE_DIR / 'staticfiles'
-STATIC_ROOT = 'pp_frontend/build/static'
+MEDIA_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = BASE_DIR / 'static/images'
 
 CORS_ALLOW_ALL_ORIGINS = True
 
