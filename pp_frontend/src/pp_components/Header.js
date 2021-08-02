@@ -24,8 +24,8 @@ function Header() {
                         <Navbar.Brand>Pet Palace</Navbar.Brand>
                     </LinkContainer>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <SearchBox />
+                    <Navbar.Collapse id="basic-navbar-nav" style={{flexGrow: 'unset' }}>
+                        <SearchBox /> 
                         <Nav className="ml-auto">
                             <LinkContainer to="/cart">
                                 <Nav.Link><i className="fas fa-shopping-cart"></i>&nbsp;Cart</Nav.Link>
